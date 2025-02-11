@@ -1,0 +1,7 @@
+{
+  "主页": "page_home",
+  "api": {
+    "api原子操作-创建得物用户": "page_api_creat_user_service",
+    "api原子操作-得物用户下单": "page_api_create_order_service"
+  }
+}

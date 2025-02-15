@@ -7,7 +7,7 @@ from utils.utils import Utils
 def page_api_creat_user_service():
     st.title("api业务")
     st.write("api原子操作-创建得物用户")
-    Utils.display_form()
+    Utils.display_form("api_creat_user_service")
 
 def page_api_create_order_service():
     st.title("api业务")
@@ -20,4 +20,4 @@ def page_api_create_order_service():
     }\
     其中userid为用户id，count为借款金额，item为借款期限\
              ")
-    Utils.display_form()
+    Utils.display_form("api_creat_user_service")
